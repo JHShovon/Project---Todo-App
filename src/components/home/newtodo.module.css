@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-size: 1.2rem;
+}
+
+form input,
+form textarea {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+}
+
+form textarea {
+  min-height: 80px;
+}
+
+form button {
+  align-self: center;
+  padding: 10px 30px;
+  background: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: rgb(0, 177, 0);
+}
